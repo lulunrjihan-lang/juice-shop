@@ -1,0 +1,5 @@
+ignore:
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: 'Dev-only dependency, tidak masuk production bundle'
+        expires: 2026-12-31
